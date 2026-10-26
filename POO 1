@@ -1,0 +1,38 @@
+#include <iostream>
+
+class Player
+{
+public:
+    // name
+    int life = 20;
+    int maxLife = 100;
+
+    int stamina = 100;
+    int attack = 10;
+    int defense = 10;
+
+    int gold = 1'000'000'000;
+
+    void DisplayStats()
+    {
+        std::cout << "-> Player" << std::endl;
+        std::cout << "Life : " << life << std::endl;
+        std::cout << "Attack : " << attack << std::endl;
+        std::cout << "Gold : " << gold << std::endl;
+        std::cout << std::endl;
+    }
+};
+
+int main()
+{
+    Player player;
+    player.DisplayStats();
+
+    Player player2;
+    player2.DisplayStats();
+
+    Player player3;
+    player2.DisplayStats();
+
+    return 0;
+}
