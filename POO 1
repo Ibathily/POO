@@ -32,7 +32,7 @@ int main()
     player2.DisplayStats();
 
     Player player3;
-    player2.DisplayStats();
+    player3.DisplayStats();
 
     return 0;
 }
